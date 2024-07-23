@@ -1,0 +1,207 @@
+* {
+	box-sizing: border-box;
+} 
+
+body {
+	background-color:#ffe6f9;
+	font-family:verdanai;
+	font-size:14px;
+}
+
+
+#Menu ul {
+	background:#1a001a;
+	text-align: left;
+	color:white;
+	font-size:120%;
+	font-weight:bold;
+	padding:20px;
+	margin-top:10px;
+	border-radius:10px;
+    list-style-type:none;
+	
+}
+#Menu ul li{
+	display: inline;
+}
+#Menu ul li a{
+	color: #cc00cc;
+	text-decoration:none;
+	padding-left:10px;
+	padding-right:10px;
+	transition:0.5s; 
+}
+#Menu ul li a:hover{
+	color:white;
+	border-radius:10px;
+	font-size:150%;
+	transition:0.5s;
+	
+}
+#copyright{
+	background:black;
+	text-align:center;
+	padding:10px;
+	margin-top:120px;
+	border-radius:10px;
+	color:white;
+}
+
+#homeimg{
+    margin: auto;
+    width:80%;
+	position:relative;	
+}
+
+#Most{
+	color:black;
+	text-align:center;
+	font-size:150%;
+	font-weight:bold;
+}
+#categories{
+	color:black;
+	text-align:center;
+	font-size:150%;
+	font-weight:bold;
+}
+#Occasions{
+	color:black;
+	text-align:center;
+	font-size:150%;
+	font-weight:bold;
+}
+
+
+#Special{
+	color:black;
+	text-align:center;
+	font-size:150%;
+	font-weight:bold;
+}
+#Most a:hover{
+	background-color:#cc00cc;
+	transition:0.5s;
+	border-radius:10px;
+	font-size:150%;
+}
+#categories a:hover{
+	background-color:#cc00cc;
+	transition:0.5s;
+	border-radius:10px;
+	font-size:150%;
+}
+
+#Occasions a:hover{
+	background-color:#cc00cc;
+	transition:0.5s;
+	border-radius:10px;
+	font-size:150%;
+}
+
+#Special a:hover{
+	background-color:#cc00cc;
+	transition:0.5s;
+	border-radius:10px;
+	font-size:150%;
+}
+#leftcolumn {
+	width:25%;
+	float:left;
+	background:white;
+}
+
+#rightcolumn {
+	width:75%;
+	float:right;
+	background:white;
+}
+#row {
+	column-count: 3;
+  column-gap: 0.0px;
+  column-rule-style: solid;
+  text-align:center;
+  column-rule-width: 1px;
+}
+#row a {
+	color:black;
+	text-decoration:none;
+	
+}
+	
+#row a:hover{
+	background-color:#cc00cc;
+	border-radius:5px;
+	
+}
+
+#Contact ul li {
+	display: inline;
+    margin-left: 50px;
+    margin-right: 50px;	
+	padding:100px;
+}
+
+#Contact{
+	color:black;
+	text-align:center;
+	font-size:150%;
+	font-weight:bold;	
+}
+
+#price ul li {
+	display: inline;	
+	padding:120px;
+	font-size:80%
+}
+#buy ul li {
+	display: inline;	
+	padding:100px;
+	font-size:80%
+}
+#buy ul {
+	color:back;
+}
+#form{
+	text-align:center;	
+}
+#form input[type=submit],input[type=reset]{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}		
+#buy input[type=submit]{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}	
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.next {
+	right: 0;
+}
+
+
+.prev:hover, .next:hover {
+	background-color: white;
+	opacity: 0.8;
+}
+
